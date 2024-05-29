@@ -1,0 +1,226 @@
+[0.440s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.440s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffada502b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffada13df0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffada13df0>>)
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.614s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mono/ros2_ws'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extensions ['ignore', 'ignore_ament_install']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extension 'ignore'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extension 'ignore_ament_install'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extensions ['colcon_pkg']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extension 'colcon_pkg'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extensions ['colcon_meta']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extension 'colcon_meta'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extensions ['ros']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extension 'ros'
+[0.698s] DEBUG:colcon.colcon_core.package_identification:Package 'src/keyboard_control_node' with type 'ros.ament_python' and name 'keyboard_control_node'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['ignore', 'ignore_ament_install']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'ignore'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'ignore_ament_install'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['colcon_pkg']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'colcon_pkg'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['colcon_meta']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'colcon_meta'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['ros']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'ros'
+[0.703s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_control_node' with type 'ros.ament_python' and name 'motor_control_node'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ignore'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ignore_ament_install'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['colcon_pkg']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'colcon_pkg'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['colcon_meta']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'colcon_meta'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['ros']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ros'
+[0.708s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_controller' with type 'ros.ament_python' and name 'motor_controller'
+[0.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.804s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 281 installed packages in /opt/ros/iron
+[0.810s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'cmake_args' from command line to 'None'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'cmake_target' from command line to 'None'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.004s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard_control_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/keyboard_control_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/keyboard_control_node', 'merge_install': False, 'path': '/home/mono/ros2_ws/src/keyboard_control_node', 'symlink_install': False, 'test_result_base': None}
+[1.006s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_args' from command line to 'None'
+[1.006s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_target' from command line to 'None'
+[1.006s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.006s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.006s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.007s] DEBUG:colcon.colcon_core.verb:Building package 'motor_control_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/motor_control_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/motor_control_node', 'merge_install': False, 'path': '/home/mono/ros2_ws/src/motor_control_node', 'symlink_install': False, 'test_result_base': None}
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_args' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_target' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.010s] DEBUG:colcon.colcon_core.verb:Building package 'motor_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/motor_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/motor_controller', 'merge_install': False, 'path': '/home/mono/ros2_ws/src/motor_controller', 'symlink_install': False, 'test_result_base': None}
+[1.010s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.015s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mono/ros2_ws/src/keyboard_control_node' with build type 'ament_python'
+[1.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_control_node', 'ament_prefix_path')
+[1.025s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node/hook/ament_prefix_path.ps1'
+[1.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node/hook/ament_prefix_path.dsv'
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node/hook/ament_prefix_path.sh'
+[1.035s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.035s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.052s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mono/ros2_ws/src/motor_control_node' with build type 'ament_python'
+[1.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control_node', 'ament_prefix_path')
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/motor_control_node/share/motor_control_node/hook/ament_prefix_path.ps1'
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mono/ros2_ws/install/motor_control_node/share/motor_control_node/hook/ament_prefix_path.dsv'
+[1.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/motor_control_node/share/motor_control_node/hook/ament_prefix_path.sh'
+[1.062s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.062s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.077s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mono/ros2_ws/src/motor_controller' with build type 'ament_python'
+[1.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_controller', 'ament_prefix_path')
+[1.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/motor_controller/share/motor_controller/hook/ament_prefix_path.ps1'
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mono/ros2_ws/install/motor_controller/share/motor_controller/hook/ament_prefix_path.dsv'
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/motor_controller/share/motor_controller/hook/ament_prefix_path.sh'
+[1.087s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.088s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.043s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mono/ros2_ws/src/keyboard_control_node'
+[2.044s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.045s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.008s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mono/ros2_ws/src/motor_control_node'
+[3.009s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.009s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.946s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mono/ros2_ws/src/motor_controller'
+[3.947s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.947s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mono/ros2_ws/src/keyboard_control_node': PYTHONPATH=/home/mono/ros2_ws/build/keyboard_control_node/prefix_override:/home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/keyboard_control_node build --build-base /home/mono/ros2_ws/build/keyboard_control_node/build install --record /home/mono/ros2_ws/build/keyboard_control_node/install.log --single-version-externally-managed install_data
+[7.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mono/ros2_ws/src/motor_controller': PYTHONPATH=/home/mono/ros2_ws/build/motor_controller/prefix_override:/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_controller build --build-base /home/mono/ros2_ws/build/motor_controller/build install --record /home/mono/ros2_ws/build/motor_controller/install.log --single-version-externally-managed install_data
+[7.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mono/ros2_ws/src/motor_control_node': PYTHONPATH=/home/mono/ros2_ws/build/motor_control_node/prefix_override:/home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_node build --build-base /home/mono/ros2_ws/build/motor_control_node/build install --record /home/mono/ros2_ws/build/motor_control_node/install.log --single-version-externally-managed install_data
+[10.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mono/ros2_ws/src/keyboard_control_node' returned '0': PYTHONPATH=/home/mono/ros2_ws/build/keyboard_control_node/prefix_override:/home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/keyboard_control_node build --build-base /home/mono/ros2_ws/build/keyboard_control_node/build install --record /home/mono/ros2_ws/build/keyboard_control_node/install.log --single-version-externally-managed install_data
+[10.696s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/keyboard_control_node' for CMake module files
+[10.700s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/keyboard_control_node' for CMake config files
+[10.709s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/keyboard_control_node/lib'
+[10.712s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/keyboard_control_node/bin'
+[10.713s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/keyboard_control_node/lib/pkgconfig/keyboard_control_node.pc'
+[10.716s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages'
+[10.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_control_node', 'pythonpath')
+[10.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node/hook/pythonpath.ps1'
+[10.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node/hook/pythonpath.dsv'
+[10.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node/hook/pythonpath.sh'
+[10.736s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/keyboard_control_node/bin'
+[10.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_control_node)
+[10.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node/package.ps1'
+[10.747s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node/package.dsv'
+[10.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node/package.sh'
+[10.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node/package.bash'
+[10.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node/package.zsh'
+[10.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mono/ros2_ws/install/keyboard_control_node/share/colcon-core/packages/keyboard_control_node)
+[10.774s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/motor_controller' for CMake module files
+[10.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mono/ros2_ws/src/motor_controller' returned '0': PYTHONPATH=/home/mono/ros2_ws/build/motor_controller/prefix_override:/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_controller build --build-base /home/mono/ros2_ws/build/motor_controller/build install --record /home/mono/ros2_ws/build/motor_controller/install.log --single-version-externally-managed install_data
+[10.778s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/motor_controller' for CMake config files
+[10.783s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/motor_controller/lib'
+[10.785s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/motor_controller/bin'
+[10.786s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/motor_controller/lib/pkgconfig/motor_controller.pc'
+[10.788s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages'
+[10.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_controller', 'pythonpath')
+[10.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/motor_controller/share/motor_controller/hook/pythonpath.ps1'
+[10.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mono/ros2_ws/install/motor_controller/share/motor_controller/hook/pythonpath.dsv'
+[10.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/motor_controller/share/motor_controller/hook/pythonpath.sh'
+[10.803s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/motor_controller/bin'
+[10.804s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_controller)
+[10.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/motor_controller/share/motor_controller/package.ps1'
+[10.811s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mono/ros2_ws/install/motor_controller/share/motor_controller/package.dsv'
+[10.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/motor_controller/share/motor_controller/package.sh'
+[10.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/motor_controller/share/motor_controller/package.bash'
+[10.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/motor_controller/share/motor_controller/package.zsh'
+[10.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mono/ros2_ws/install/motor_controller/share/colcon-core/packages/motor_controller)
+[10.930s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/motor_control_node' for CMake module files
+[10.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mono/ros2_ws/src/motor_control_node' returned '0': PYTHONPATH=/home/mono/ros2_ws/build/motor_control_node/prefix_override:/home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_node build --build-base /home/mono/ros2_ws/build/motor_control_node/build install --record /home/mono/ros2_ws/build/motor_control_node/install.log --single-version-externally-managed install_data
+[10.934s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/motor_control_node' for CMake config files
+[10.938s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/motor_control_node/lib'
+[10.938s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/motor_control_node/bin'
+[10.939s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/motor_control_node/lib/pkgconfig/motor_control_node.pc'
+[10.940s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages'
+[10.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control_node', 'pythonpath')
+[10.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/motor_control_node/share/motor_control_node/hook/pythonpath.ps1'
+[10.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mono/ros2_ws/install/motor_control_node/share/motor_control_node/hook/pythonpath.dsv'
+[10.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/motor_control_node/share/motor_control_node/hook/pythonpath.sh'
+[10.950s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/motor_control_node/bin'
+[10.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_control_node)
+[10.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/motor_control_node/share/motor_control_node/package.ps1'
+[10.955s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mono/ros2_ws/install/motor_control_node/share/motor_control_node/package.dsv'
+[10.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/motor_control_node/share/motor_control_node/package.sh'
+[10.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/motor_control_node/share/motor_control_node/package.bash'
+[10.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/motor_control_node/share/motor_control_node/package.zsh'
+[10.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mono/ros2_ws/install/motor_control_node/share/colcon-core/packages/motor_control_node)
+[10.965s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.966s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.967s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.968s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.988s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.989s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.989s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.512s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.514s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mono/ros2_ws/install/local_setup.ps1'
+[11.520s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mono/ros2_ws/install/_local_setup_util_ps1.py'
+[11.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mono/ros2_ws/install/setup.ps1'
+[11.538s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mono/ros2_ws/install/local_setup.sh'
+[11.543s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mono/ros2_ws/install/_local_setup_util_sh.py'
+[11.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mono/ros2_ws/install/setup.sh'
+[11.555s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mono/ros2_ws/install/local_setup.bash'
+[11.558s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mono/ros2_ws/install/setup.bash'
+[11.566s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mono/ros2_ws/install/local_setup.zsh'
+[11.569s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mono/ros2_ws/install/setup.zsh'

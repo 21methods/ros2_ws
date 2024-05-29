@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: keyboard_control_node
+Version: 0.0.0
+Summary: ROS2 package for controlling motors via keyboard input
+Maintainer: your_name
+Maintainer-email: your_email@example.com
+License: Apache License 2.0
+Requires-Dist: setuptools

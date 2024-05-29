@@ -1,0 +1,499 @@
+[0.417s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.417s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff92842d10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff92842890>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff92842890>>)
+[0.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.926s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mono/ros2_ws'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial) by extensions ['ignore', 'ignore_ament_install']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial) by extension 'ignore'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial) by extension 'ignore_ament_install'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial) by extensions ['colcon_pkg']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial) by extension 'colcon_pkg'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial) by extensions ['colcon_meta']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial) by extension 'colcon_meta'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial) by extensions ['ros']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial) by extension 'ros'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial) by extensions ['cmake', 'python']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial) by extension 'cmake'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial) by extension 'python'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial) by extensions ['python_setup_py']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial) by extension 'python_setup_py'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial) by extensions ['ignore', 'ignore_ament_install']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial) by extension 'ignore'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial) by extension 'ignore_ament_install'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial) by extensions ['colcon_pkg']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial) by extension 'colcon_pkg'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial) by extensions ['colcon_meta']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial) by extension 'colcon_meta'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial) by extensions ['ros']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial) by extension 'ros'
+[0.997s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial' with type 'ros.catkin' and name 'rosserial'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_arduino) by extension 'ignore'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_arduino) by extension 'ignore_ament_install'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_arduino) by extensions ['colcon_pkg']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_arduino) by extension 'colcon_pkg'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_arduino) by extensions ['colcon_meta']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_arduino) by extension 'colcon_meta'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_arduino) by extensions ['ros']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_arduino) by extension 'ros'
+[1.003s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial_arduino' with type 'ros.catkin' and name 'rosserial_arduino'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_chibios) by extensions ['ignore', 'ignore_ament_install']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_chibios) by extension 'ignore'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_chibios) by extension 'ignore_ament_install'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_chibios) by extensions ['colcon_pkg']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_chibios) by extension 'colcon_pkg'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_chibios) by extensions ['colcon_meta']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_chibios) by extension 'colcon_meta'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_chibios) by extensions ['ros']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_chibios) by extension 'ros'
+[1.008s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial_chibios' with type 'ros.catkin' and name 'rosserial_chibios'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_client) by extensions ['ignore', 'ignore_ament_install']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_client) by extension 'ignore'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_client) by extension 'ignore_ament_install'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_client) by extensions ['colcon_pkg']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_client) by extension 'colcon_pkg'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_client) by extensions ['colcon_meta']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_client) by extension 'colcon_meta'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_client) by extensions ['ros']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_client) by extension 'ros'
+[1.013s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial_client' with type 'ros.catkin' and name 'rosserial_client'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_embeddedlinux) by extensions ['ignore', 'ignore_ament_install']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_embeddedlinux) by extension 'ignore'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_embeddedlinux) by extension 'ignore_ament_install'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_embeddedlinux) by extensions ['colcon_pkg']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_embeddedlinux) by extension 'colcon_pkg'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_embeddedlinux) by extensions ['colcon_meta']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_embeddedlinux) by extension 'colcon_meta'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_embeddedlinux) by extensions ['ros']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_embeddedlinux) by extension 'ros'
+[1.018s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial_embeddedlinux' with type 'ros.catkin' and name 'rosserial_embeddedlinux'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_mbed) by extensions ['ignore', 'ignore_ament_install']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_mbed) by extension 'ignore'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_mbed) by extension 'ignore_ament_install'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_mbed) by extensions ['colcon_pkg']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_mbed) by extension 'colcon_pkg'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_mbed) by extensions ['colcon_meta']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_mbed) by extension 'colcon_meta'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_mbed) by extensions ['ros']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_mbed) by extension 'ros'
+[1.023s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial_mbed' with type 'ros.catkin' and name 'rosserial_mbed'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_msgs) by extension 'ignore'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_msgs) by extension 'ignore_ament_install'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_msgs) by extensions ['colcon_pkg']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_msgs) by extension 'colcon_pkg'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_msgs) by extensions ['colcon_meta']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_msgs) by extension 'colcon_meta'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_msgs) by extensions ['ros']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_msgs) by extension 'ros'
+[1.028s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial_msgs' with type 'ros.catkin' and name 'rosserial_msgs'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_python) by extensions ['ignore', 'ignore_ament_install']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_python) by extension 'ignore'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_python) by extension 'ignore_ament_install'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_python) by extensions ['colcon_pkg']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_python) by extension 'colcon_pkg'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_python) by extensions ['colcon_meta']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_python) by extension 'colcon_meta'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_python) by extensions ['ros']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_python) by extension 'ros'
+[1.033s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial_python' with type 'ros.catkin' and name 'rosserial_python'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_server) by extensions ['ignore', 'ignore_ament_install']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_server) by extension 'ignore'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_server) by extension 'ignore_ament_install'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_server) by extensions ['colcon_pkg']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_server) by extension 'colcon_pkg'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_server) by extensions ['colcon_meta']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_server) by extension 'colcon_meta'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_server) by extensions ['ros']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_server) by extension 'ros'
+[1.039s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial_server' with type 'ros.catkin' and name 'rosserial_server'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_test) by extensions ['ignore', 'ignore_ament_install']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_test) by extension 'ignore'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_test) by extension 'ignore_ament_install'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_test) by extensions ['colcon_pkg']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_test) by extension 'colcon_pkg'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_test) by extensions ['colcon_meta']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_test) by extension 'colcon_meta'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_test) by extensions ['ros']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_test) by extension 'ros'
+[1.046s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial_test' with type 'ros.catkin' and name 'rosserial_test'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_tivac) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_tivac) by extension 'ignore'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_tivac) by extension 'ignore_ament_install'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_tivac) by extensions ['colcon_pkg']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_tivac) by extension 'colcon_pkg'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_tivac) by extensions ['colcon_meta']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_tivac) by extension 'colcon_meta'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_tivac) by extensions ['ros']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_tivac) by extension 'ros'
+[1.051s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial_tivac' with type 'ros.catkin' and name 'rosserial_tivac'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_cortex) by extensions ['ignore', 'ignore_ament_install']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_cortex) by extension 'ignore'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_cortex) by extension 'ignore_ament_install'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_cortex) by extensions ['colcon_pkg']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_cortex) by extension 'colcon_pkg'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_cortex) by extensions ['colcon_meta']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_cortex) by extension 'colcon_meta'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_cortex) by extensions ['ros']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_cortex) by extension 'ros'
+[1.058s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial_vex_cortex' with type 'ros.catkin' and name 'rosserial_vex_cortex'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_v5) by extensions ['ignore', 'ignore_ament_install']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_v5) by extension 'ignore'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_v5) by extension 'ignore_ament_install'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_v5) by extensions ['colcon_pkg']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_v5) by extension 'colcon_pkg'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_v5) by extensions ['colcon_meta']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_v5) by extension 'colcon_meta'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_v5) by extensions ['ros']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_vex_v5) by extension 'ros'
+[1.063s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial_vex_v5' with type 'ros.catkin' and name 'rosserial_vex_v5'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_windows) by extensions ['ignore', 'ignore_ament_install']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_windows) by extension 'ignore'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_windows) by extension 'ignore_ament_install'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_windows) by extensions ['colcon_pkg']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_windows) by extension 'colcon_pkg'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_windows) by extensions ['colcon_meta']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_windows) by extension 'colcon_meta'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_windows) by extensions ['ros']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_windows) by extension 'ros'
+[1.069s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial_windows' with type 'ros.catkin' and name 'rosserial_windows'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_xbee) by extensions ['ignore', 'ignore_ament_install']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_xbee) by extension 'ignore'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_xbee) by extension 'ignore_ament_install'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_xbee) by extensions ['colcon_pkg']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_xbee) by extension 'colcon_pkg'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_xbee) by extensions ['colcon_meta']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_xbee) by extension 'colcon_meta'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_xbee) by extensions ['ros']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(rosserial/rosserial_xbee) by extension 'ros'
+[1.074s] DEBUG:colcon.colcon_core.package_identification:Package 'rosserial/rosserial_xbee' with type 'ros.catkin' and name 'rosserial_xbee'
+[1.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extensions ['ignore', 'ignore_ament_install']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extension 'ignore'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extension 'ignore_ament_install'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extensions ['colcon_pkg']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extension 'colcon_pkg'
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extensions ['colcon_meta']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extension 'colcon_meta'
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extensions ['ros']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control_node) by extension 'ros'
+[1.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/keyboard_control_node' with type 'ros.ament_python' and name 'keyboard_control_node'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['ignore', 'ignore_ament_install']
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'ignore'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'ignore_ament_install'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['colcon_pkg']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'colcon_pkg'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['colcon_meta']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'colcon_meta'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extensions ['ros']
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_node) by extension 'ros'
+[1.087s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_control_node' with type 'ros.ament_python' and name 'motor_control_node'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ignore'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ignore_ament_install'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['colcon_pkg']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'colcon_pkg'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['colcon_meta']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'colcon_meta'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['ros']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ros'
+[1.092s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_controller' with type 'ros.ament_python' and name 'motor_controller'
+[1.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.187s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/opt/ros/iron' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.193s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'cmake_args' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'cmake_target' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.195s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.195s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.195s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.195s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard_control_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/keyboard_control_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/keyboard_control_node', 'merge_install': False, 'path': '/home/mono/ros2_ws/src/keyboard_control_node', 'symlink_install': False, 'test_result_base': None}
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_args' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_target' from command line to 'None'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'motor_control_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.199s] DEBUG:colcon.colcon_core.verb:Building package 'motor_control_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/motor_control_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/motor_control_node', 'merge_install': False, 'path': '/home/mono/ros2_ws/src/motor_control_node', 'symlink_install': False, 'test_result_base': None}
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_target' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.202s] DEBUG:colcon.colcon_core.verb:Building package 'motor_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/motor_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/motor_controller', 'merge_install': False, 'path': '/home/mono/ros2_ws/src/motor_controller', 'symlink_install': False, 'test_result_base': None}
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'cmake_target' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.205s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial_msgs', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.207s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'cmake_args' from command line to 'None'
+[1.207s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'cmake_target' from command line to 'None'
+[1.207s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.207s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'cmake_clean_cache' from command line to 'False'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'cmake_clean_first' from command line to 'False'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'cmake_force_configure' from command line to 'False'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'ament_cmake_args' from command line to 'None'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'catkin_cmake_args' from command line to 'None'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.208s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial_client', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial_client', 'symlink_install': False, 'test_result_base': None}
+[1.210s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'cmake_args' from command line to 'None'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'cmake_target' from command line to 'None'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'cmake_clean_cache' from command line to 'False'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'cmake_clean_first' from command line to 'False'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'cmake_force_configure' from command line to 'False'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'ament_cmake_args' from command line to 'None'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'catkin_cmake_args' from command line to 'None'
+[1.212s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.212s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial_python', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial_python', 'symlink_install': False, 'test_result_base': None}
+[1.214s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'cmake_args' from command line to 'None'
+[1.214s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'cmake_target' from command line to 'None'
+[1.214s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.214s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'cmake_clean_cache' from command line to 'False'
+[1.214s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'cmake_clean_first' from command line to 'False'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'cmake_force_configure' from command line to 'False'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'ament_cmake_args' from command line to 'None'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'catkin_cmake_args' from command line to 'None'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.215s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial_server', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial_server', 'symlink_install': False, 'test_result_base': None}
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'cmake_args' from command line to 'None'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'cmake_target' from command line to 'None'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.218s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.218s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'cmake_clean_first' from command line to 'False'
+[1.218s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'cmake_force_configure' from command line to 'False'
+[1.218s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'ament_cmake_args' from command line to 'None'
+[1.218s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.219s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.219s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial', 'symlink_install': False, 'test_result_base': None}
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'cmake_args' from command line to 'None'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'cmake_target' from command line to 'None'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.223s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial_arduino', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial_arduino', 'symlink_install': False, 'test_result_base': None}
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'cmake_args' from command line to 'None'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'cmake_target' from command line to 'None'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'cmake_clean_cache' from command line to 'False'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'cmake_clean_first' from command line to 'False'
+[1.226s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'cmake_force_configure' from command line to 'False'
+[1.226s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'ament_cmake_args' from command line to 'None'
+[1.226s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'catkin_cmake_args' from command line to 'None'
+[1.226s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.226s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_chibios' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial_chibios', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial_chibios', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial_chibios', 'symlink_install': False, 'test_result_base': None}
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'cmake_args' from command line to 'None'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'cmake_target' from command line to 'None'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'cmake_clean_cache' from command line to 'False'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'cmake_clean_first' from command line to 'False'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'cmake_force_configure' from command line to 'False'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'ament_cmake_args' from command line to 'None'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'catkin_cmake_args' from command line to 'None'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.230s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_embeddedlinux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial_embeddedlinux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial_embeddedlinux', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial_embeddedlinux', 'symlink_install': False, 'test_result_base': None}
+[1.231s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'cmake_args' from command line to 'None'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'cmake_target' from command line to 'None'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'cmake_clean_cache' from command line to 'False'
+[1.232s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'cmake_clean_first' from command line to 'False'
+[1.233s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'cmake_force_configure' from command line to 'False'
+[1.233s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'ament_cmake_args' from command line to 'None'
+[1.233s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'catkin_cmake_args' from command line to 'None'
+[1.233s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.233s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_mbed' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial_mbed', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial_mbed', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial_mbed', 'symlink_install': False, 'test_result_base': None}
+[1.235s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'cmake_args' from command line to 'None'
+[1.235s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'cmake_target' from command line to 'None'
+[1.235s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'cmake_clean_cache' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'cmake_clean_first' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'cmake_force_configure' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'ament_cmake_args' from command line to 'None'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'catkin_cmake_args' from command line to 'None'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.237s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial_test', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial_test', 'symlink_install': False, 'test_result_base': None}
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'cmake_args' from command line to 'None'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'cmake_target' from command line to 'None'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'cmake_clean_cache' from command line to 'False'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'cmake_clean_first' from command line to 'False'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'cmake_force_configure' from command line to 'False'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'ament_cmake_args' from command line to 'None'
+[1.240s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'catkin_cmake_args' from command line to 'None'
+[1.240s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.240s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_tivac' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial_tivac', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial_tivac', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial_tivac', 'symlink_install': False, 'test_result_base': None}
+[1.242s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'cmake_args' from command line to 'None'
+[1.242s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'cmake_target' from command line to 'None'
+[1.242s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.242s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'cmake_clean_cache' from command line to 'False'
+[1.242s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'cmake_clean_first' from command line to 'False'
+[1.243s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'cmake_force_configure' from command line to 'False'
+[1.243s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'ament_cmake_args' from command line to 'None'
+[1.243s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'catkin_cmake_args' from command line to 'None'
+[1.243s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.243s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_vex_cortex' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial_vex_cortex', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial_vex_cortex', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial_vex_cortex', 'symlink_install': False, 'test_result_base': None}
+[1.245s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'cmake_args' from command line to 'None'
+[1.245s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'cmake_target' from command line to 'None'
+[1.245s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.246s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'cmake_clean_cache' from command line to 'False'
+[1.246s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'cmake_clean_first' from command line to 'False'
+[1.246s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'cmake_force_configure' from command line to 'False'
+[1.246s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'ament_cmake_args' from command line to 'None'
+[1.246s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'catkin_cmake_args' from command line to 'None'
+[1.246s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.246s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_vex_v5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial_vex_v5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial_vex_v5', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial_vex_v5', 'symlink_install': False, 'test_result_base': None}
+[1.248s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'cmake_args' from command line to 'None'
+[1.248s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'cmake_target' from command line to 'None'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'cmake_clean_cache' from command line to 'False'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'cmake_clean_first' from command line to 'False'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'cmake_force_configure' from command line to 'False'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'ament_cmake_args' from command line to 'None'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'catkin_cmake_args' from command line to 'None'
+[1.250s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.250s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_windows' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial_windows', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial_windows', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial_windows', 'symlink_install': False, 'test_result_base': None}
+[1.252s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'cmake_args' from command line to 'None'
+[1.252s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'cmake_target' from command line to 'None'
+[1.252s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.252s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'cmake_clean_cache' from command line to 'False'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'cmake_clean_first' from command line to 'False'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'cmake_force_configure' from command line to 'False'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'ament_cmake_args' from command line to 'None'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'catkin_cmake_args' from command line to 'None'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.253s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_xbee' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mono/ros2_ws/build/rosserial_xbee', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mono/ros2_ws/install/rosserial_xbee', 'merge_install': False, 'path': '/home/mono/ros2_ws/rosserial/rosserial_xbee', 'symlink_install': False, 'test_result_base': None}
+[1.254s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.258s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.260s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/mono/ros2_ws/rosserial/rosserial_msgs' with build type 'catkin'
+[1.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mono/ros2_ws/rosserial/rosserial_msgs'
+[1.275s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.286s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mono/ros2_ws/src/keyboard_control_node' with build type 'ament_python'
+[1.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_control_node', 'ament_prefix_path')
+[1.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node/hook/ament_prefix_path.ps1'
+[1.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node/hook/ament_prefix_path.dsv'
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node/hook/ament_prefix_path.sh'
+[1.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.306s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mono/ros2_ws/src/motor_control_node' with build type 'ament_python'
+[1.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control_node', 'ament_prefix_path')
+[1.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/motor_control_node/share/motor_control_node/hook/ament_prefix_path.ps1'
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mono/ros2_ws/install/motor_control_node/share/motor_control_node/hook/ament_prefix_path.dsv'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/motor_control_node/share/motor_control_node/hook/ament_prefix_path.sh'
+[1.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.322s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mono/ros2_ws/src/motor_controller' with build type 'ament_python'
+[1.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_controller', 'ament_prefix_path')
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/motor_controller/share/motor_controller/hook/ament_prefix_path.ps1'
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mono/ros2_ws/install/motor_controller/share/motor_controller/hook/ament_prefix_path.dsv'
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mono/ros2_ws/install/motor_controller/share/motor_controller/hook/ament_prefix_path.sh'
+[1.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mono/ros2_ws/build/rosserial_msgs': /usr/bin/cmake /home/mono/ros2_ws/rosserial/rosserial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mono/ros2_ws/install/rosserial_msgs
+[2.242s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mono/ros2_ws/src/keyboard_control_node'
+[2.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.215s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mono/ros2_ws/src/motor_control_node'
+[3.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.113s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mono/ros2_ws/src/motor_controller'
+[4.114s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.115s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mono/ros2_ws/build/rosserial_msgs' returned '1': /usr/bin/cmake /home/mono/ros2_ws/rosserial/rosserial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mono/ros2_ws/install/rosserial_msgs
+[4.223s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosserial_msgs)
+[4.241s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/rosserial_msgs' for CMake module files
+[4.247s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/rosserial_msgs' for CMake config files
+[4.249s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/rosserial_msgs/bin'
+[4.250s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/rosserial_msgs/lib/pkgconfig/rosserial_msgs.pc'
+[4.253s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/rosserial_msgs/lib/python3.10/site-packages'
+[4.255s] Level 1:colcon.colcon_core.environment:checking '/home/mono/ros2_ws/install/rosserial_msgs/bin'
+[4.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/rosserial_msgs/share/rosserial_msgs/package.ps1'
+[4.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mono/ros2_ws/install/rosserial_msgs/share/rosserial_msgs/package.dsv'
+[4.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/rosserial_msgs/share/rosserial_msgs/package.sh'
+[4.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/rosserial_msgs/share/rosserial_msgs/package.bash'
+[4.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/mono/ros2_ws/install/rosserial_msgs/share/rosserial_msgs/package.zsh'
+[4.287s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mono/ros2_ws/install/rosserial_msgs/share/colcon-core/packages/rosserial_msgs)
+[7.026s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.028s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.029s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[7.030s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.067s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.068s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.068s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.016s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.018s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mono/ros2_ws/install/local_setup.ps1'
+[9.034s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mono/ros2_ws/install/_local_setup_util_ps1.py'
+[9.250s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mono/ros2_ws/install/setup.ps1'
+[9.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mono/ros2_ws/install/local_setup.sh'
+[9.282s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mono/ros2_ws/install/_local_setup_util_sh.py'
+[9.293s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mono/ros2_ws/install/setup.sh'
+[9.298s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mono/ros2_ws/install/local_setup.bash'
+[9.301s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mono/ros2_ws/install/setup.bash'
+[9.305s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mono/ros2_ws/install/local_setup.zsh'
+[9.308s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mono/ros2_ws/install/setup.zsh'

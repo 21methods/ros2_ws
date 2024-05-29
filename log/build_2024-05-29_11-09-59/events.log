@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.001556] (motor_control_node) JobQueued: {'identifier': 'motor_control_node', 'dependencies': OrderedDict()}
+[0.002163] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict()}
+[0.002257] (motor_control_node) JobStarted: {'identifier': 'motor_control_node'}
+[0.055996] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[0.098974] (-) TimerEvent: {}
+[0.199772] (-) TimerEvent: {}
+[0.300481] (-) TimerEvent: {}
+[0.401143] (-) TimerEvent: {}
+[0.501808] (-) TimerEvent: {}
+[0.602468] (-) TimerEvent: {}
+[0.703147] (-) TimerEvent: {}
+[0.803766] (-) TimerEvent: {}
+[0.904388] (-) TimerEvent: {}
+[1.005072] (-) TimerEvent: {}
+[1.105669] (-) TimerEvent: {}
+[1.206437] (-) TimerEvent: {}
+[1.307387] (-) TimerEvent: {}
+[1.408074] (-) TimerEvent: {}
+[1.508748] (-) TimerEvent: {}
+[1.609651] (-) TimerEvent: {}
+[1.710294] (-) TimerEvent: {}
+[1.810940] (-) TimerEvent: {}
+[1.911848] (-) TimerEvent: {}
+[2.012487] (-) TimerEvent: {}
+[2.113118] (-) TimerEvent: {}
+[2.213793] (-) TimerEvent: {}
+[2.314430] (-) TimerEvent: {}
+[2.415148] (-) TimerEvent: {}
+[2.516456] (-) TimerEvent: {}
+[2.617707] (-) TimerEvent: {}
+[2.718537] (-) TimerEvent: {}
+[2.819422] (-) TimerEvent: {}
+[2.920166] (-) TimerEvent: {}
+[3.021842] (-) TimerEvent: {}
+[3.122555] (-) TimerEvent: {}
+[3.223287] (-) TimerEvent: {}
+[3.323974] (-) TimerEvent: {}
+[3.424675] (-) TimerEvent: {}
+[3.525402] (-) TimerEvent: {}
+[3.626093] (-) TimerEvent: {}
+[3.726897] (-) TimerEvent: {}
+[3.827797] (-) TimerEvent: {}
+[3.928538] (-) TimerEvent: {}
+[4.029340] (-) TimerEvent: {}
+[4.130202] (-) TimerEvent: {}
+[4.231436] (-) TimerEvent: {}
+[4.332640] (-) TimerEvent: {}
+[4.433370] (-) TimerEvent: {}
+[4.534261] (-) TimerEvent: {}
+[4.635539] (-) TimerEvent: {}
+[4.737497] (-) TimerEvent: {}
+[4.795575] (motor_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mono/ros2_ws/build/motor_controller/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/mono/ros2_ws/build/motor_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mono', 'SSH_CLIENT': '192.168.100.214 56656 22', 'LC_TIME': 'sw_TZ', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/mono', 'OLDPWD': '/home/mono', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'LC_MONETARY': 'sw_TZ', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'UBUNTU_MENUPROXY': '1', 'COLCON_PREFIX_PATH': '/home/mono/ros2_ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'mono', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/mono/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'sw_TZ', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'sw_TZ', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mono/ros2_ws/install/motor_controller:/home/mono/ros2_ws/install/motor_control_node:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'sw_TZ', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sw_TZ', 'LC_IDENTIFICATION': 'sw_TZ', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mono/ros2_ws/build/motor_controller', 'SSH_CONNECTION': '192.168.100.214 56656 192.168.100.213 22', 'XDG_DATA_DIRS': '/home/mono/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mono/ros2_ws/build/motor_controller/prefix_override:/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages:/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages:/home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'sw_TZ', 'LC_PAPER': 'sw_TZ', 'COLCON': '1'}, 'shell': False}
+[4.818891] (motor_control_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mono/ros2_ws/build/motor_control_node/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/mono/ros2_ws/build/motor_control_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mono', 'SSH_CLIENT': '192.168.100.214 56656 22', 'LC_TIME': 'sw_TZ', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/mono', 'OLDPWD': '/home/mono', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'LC_MONETARY': 'sw_TZ', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'UBUNTU_MENUPROXY': '1', 'COLCON_PREFIX_PATH': '/home/mono/ros2_ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'mono', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/mono/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'sw_TZ', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'sw_TZ', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mono/ros2_ws/install/motor_controller:/home/mono/ros2_ws/install/motor_control_node:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'sw_TZ', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sw_TZ', 'LC_IDENTIFICATION': 'sw_TZ', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mono/ros2_ws/build/motor_control_node', 'SSH_CONNECTION': '192.168.100.214 56656 192.168.100.213 22', 'XDG_DATA_DIRS': '/home/mono/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mono/ros2_ws/build/motor_control_node/prefix_override:/home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages:/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages:/home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'sw_TZ', 'LC_PAPER': 'sw_TZ', 'COLCON': '1'}, 'shell': False}
+[4.837698] (-) TimerEvent: {}
+[4.939074] (-) TimerEvent: {}
+[5.040139] (-) TimerEvent: {}
+[5.140883] (-) TimerEvent: {}
+[5.242507] (-) TimerEvent: {}
+[5.345127] (-) TimerEvent: {}
+[5.445841] (-) TimerEvent: {}
+[5.546583] (-) TimerEvent: {}
+[5.647347] (-) TimerEvent: {}
+[5.748017] (-) TimerEvent: {}
+[5.848697] (-) TimerEvent: {}
+[5.949371] (-) TimerEvent: {}
+[6.050087] (-) TimerEvent: {}
+[6.150944] (-) TimerEvent: {}
+[6.206957] (motor_controller) StdoutLine: {'line': b'running develop\n'}
+[6.211786] (motor_controller) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.213320] (motor_controller) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.238417] (motor_control_node) StdoutLine: {'line': b'running develop\n'}
+[6.240014] (motor_control_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.240956] (motor_control_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.253512] (-) TimerEvent: {}
+[6.355441] (-) TimerEvent: {}
+[6.457463] (-) TimerEvent: {}
+[6.558468] (-) TimerEvent: {}
+[6.659198] (-) TimerEvent: {}
+[6.759985] (-) TimerEvent: {}
+[6.860712] (-) TimerEvent: {}
+[6.961468] (-) TimerEvent: {}
+[7.062233] (-) TimerEvent: {}
+[7.162964] (-) TimerEvent: {}
+[7.178536] (motor_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.179411] (motor_controller) StdoutLine: {'line': b'writing motor_controller.egg-info/PKG-INFO\n'}
+[7.181532] (motor_controller) StdoutLine: {'line': b'writing dependency_links to motor_controller.egg-info/dependency_links.txt\n'}
+[7.182657] (motor_controller) StdoutLine: {'line': b'writing entry points to motor_controller.egg-info/entry_points.txt\n'}
+[7.183785] (motor_controller) StdoutLine: {'line': b'writing requirements to motor_controller.egg-info/requires.txt\n'}
+[7.184571] (motor_controller) StdoutLine: {'line': b'writing top-level names to motor_controller.egg-info/top_level.txt\n'}
+[7.193879] (motor_controller) StdoutLine: {'line': b"reading manifest file 'motor_controller.egg-info/SOURCES.txt'\n"}
+[7.194584] (motor_control_node) StdoutLine: {'line': b'running egg_info\n'}
+[7.195309] (motor_control_node) StdoutLine: {'line': b'writing motor_control_node.egg-info/PKG-INFO\n'}
+[7.196848] (motor_control_node) StdoutLine: {'line': b'writing dependency_links to motor_control_node.egg-info/dependency_links.txt\n'}
+[7.197996] (motor_control_node) StdoutLine: {'line': b'writing entry points to motor_control_node.egg-info/entry_points.txt\n'}
+[7.198741] (motor_controller) StdoutLine: {'line': b"writing manifest file 'motor_controller.egg-info/SOURCES.txt'\n"}
+[7.199372] (motor_control_node) StdoutLine: {'line': b'writing requirements to motor_control_node.egg-info/requires.txt\n'}
+[7.200011] (motor_control_node) StdoutLine: {'line': b'writing top-level names to motor_control_node.egg-info/top_level.txt\n'}
+[7.204993] (motor_controller) StdoutLine: {'line': b'running build_ext\n'}
+[7.205909] (motor_controller) StdoutLine: {'line': b'Creating /home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages/motor-controller.egg-link (link to .)\n'}
+[7.209761] (motor_control_node) StdoutLine: {'line': b"reading manifest file 'motor_control_node.egg-info/SOURCES.txt'\n"}
+[7.210333] (motor_controller) StdoutLine: {'line': b'Installing serial_motor_controller script to /home/mono/ros2_ws/install/motor_controller/lib/motor_controller\n'}
+[7.211282] (motor_controller) StdoutLine: {'line': b'\n'}
+[7.212051] (motor_controller) StdoutLine: {'line': b'Installed /home/mono/ros2_ws/build/motor_controller\n'}
+[7.212707] (motor_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[7.213114] (motor_controller) StdoutLine: {'line': b'symbolically linking /home/mono/ros2_ws/build/motor_controller/resource/motor_controller -> /home/mono/ros2_ws/install/motor_controller/share/ament_index/resource_index/packages\n'}
+[7.213699] (motor_controller) StdoutLine: {'line': b'symbolically linking /home/mono/ros2_ws/build/motor_controller/package.xml -> /home/mono/ros2_ws/install/motor_controller/share/motor_controller\n'}
+[7.215172] (motor_control_node) StdoutLine: {'line': b"writing manifest file 'motor_control_node.egg-info/SOURCES.txt'\n"}
+[7.225852] (motor_control_node) StdoutLine: {'line': b'running build_ext\n'}
+[7.227874] (motor_control_node) StdoutLine: {'line': b'Creating /home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages/motor-control-node.egg-link (link to .)\n'}
+[7.235129] (motor_control_node) StdoutLine: {'line': b'Installing motor_control script to /home/mono/ros2_ws/install/motor_control_node/lib/motor_control_node\n'}
+[7.237537] (motor_control_node) StdoutLine: {'line': b'\n'}
+[7.238860] (motor_control_node) StdoutLine: {'line': b'Installed /home/mono/ros2_ws/build/motor_control_node\n'}
+[7.240271] (motor_control_node) StdoutLine: {'line': b'running symlink_data\n'}
+[7.241409] (motor_control_node) StdoutLine: {'line': b'symbolically linking /home/mono/ros2_ws/build/motor_control_node/resource/motor_control_node -> /home/mono/ros2_ws/install/motor_control_node/share/ament_index/resource_index/packages\n'}
+[7.243205] (motor_control_node) StdoutLine: {'line': b'symbolically linking /home/mono/ros2_ws/build/motor_control_node/package.xml -> /home/mono/ros2_ws/install/motor_control_node/share/motor_control_node\n'}
+[7.263355] (-) TimerEvent: {}
+[7.365337] (-) TimerEvent: {}
+[7.421825] (motor_controller) CommandEnded: {'returncode': 0}
+[7.465456] (-) TimerEvent: {}
+[7.501617] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 0}
+[7.507402] (motor_control_node) CommandEnded: {'returncode': 0}
+[7.541570] (motor_control_node) JobEnded: {'identifier': 'motor_control_node', 'rc': 0}
+[7.544598] (-) EventReactorShutdown: {}

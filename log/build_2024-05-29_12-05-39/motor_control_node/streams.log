@@ -1,0 +1,21 @@
+[6.169s] Invoking command in '/home/mono/ros2_ws/src/motor_control_node': PYTHONPATH=/home/mono/ros2_ws/build/motor_control_node/prefix_override:/home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_node build --build-base /home/mono/ros2_ws/build/motor_control_node/build install --record /home/mono/ros2_ws/build/motor_control_node/install.log --single-version-externally-managed install_data
+[7.827s] running egg_info
+[7.832s] writing ../../build/motor_control_node/motor_control_node.egg-info/PKG-INFO
+[7.833s] writing dependency_links to ../../build/motor_control_node/motor_control_node.egg-info/dependency_links.txt
+[7.835s] writing entry points to ../../build/motor_control_node/motor_control_node.egg-info/entry_points.txt
+[7.838s] writing requirements to ../../build/motor_control_node/motor_control_node.egg-info/requires.txt
+[7.841s] writing top-level names to ../../build/motor_control_node/motor_control_node.egg-info/top_level.txt
+[7.850s] reading manifest file '../../build/motor_control_node/motor_control_node.egg-info/SOURCES.txt'
+[7.857s] writing manifest file '../../build/motor_control_node/motor_control_node.egg-info/SOURCES.txt'
+[7.858s] running build
+[7.859s] running build_py
+[7.865s] running install
+[7.866s] running install_lib
+[7.871s] running install_data
+[7.871s] running install_egg_info
+[7.879s] removing '/home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages/motor_control_node-0.0.0-py3.10.egg-info' (and everything under it)
+[7.881s] Copying ../../build/motor_control_node/motor_control_node.egg-info to /home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages/motor_control_node-0.0.0-py3.10.egg-info
+[7.895s] running install_scripts
+[8.023s] Installing motor_control script to /home/mono/ros2_ws/install/motor_control_node/lib/motor_control_node
+[8.028s] writing list of installed files to '/home/mono/ros2_ws/build/motor_control_node/install.log'
+[8.382s] Invoked command in '/home/mono/ros2_ws/src/motor_control_node' returned '0': PYTHONPATH=/home/mono/ros2_ws/build/motor_control_node/prefix_override:/home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_node build --build-base /home/mono/ros2_ws/build/motor_control_node/build install --record /home/mono/ros2_ws/build/motor_control_node/install.log --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[2.629s] Invoking command in '/home/mono/ros2_ws/src/motor_controller': PYTHONPATH=/home/mono/ros2_ws/build/motor_controller/prefix_override:/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_controller build --build-base /home/mono/ros2_ws/build/motor_controller/build install --record /home/mono/ros2_ws/build/motor_controller/install.log --single-version-externally-managed install_data
+[3.650s] running egg_info
+[3.653s] writing ../../build/motor_controller/motor_controller.egg-info/PKG-INFO
+[3.654s] writing dependency_links to ../../build/motor_controller/motor_controller.egg-info/dependency_links.txt
+[3.655s] writing entry points to ../../build/motor_controller/motor_controller.egg-info/entry_points.txt
+[3.656s] writing requirements to ../../build/motor_controller/motor_controller.egg-info/requires.txt
+[3.656s] writing top-level names to ../../build/motor_controller/motor_controller.egg-info/top_level.txt
+[3.665s] reading manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'
+[3.669s] writing manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'
+[3.669s] running build
+[3.669s] running build_py
+[3.670s] copying motor_controller/serial_motor_controller.py -> /home/mono/ros2_ws/build/motor_controller/build/lib/motor_controller
+[3.671s] running install
+[3.673s] running install_lib
+[3.676s] copying /home/mono/ros2_ws/build/motor_controller/build/lib/motor_controller/serial_motor_controller.py -> /home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller
+[3.679s] byte-compiling /home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller/serial_motor_controller.py to serial_motor_controller.cpython-310.pyc
+[3.682s] running install_data
+[3.682s] running install_egg_info
+[3.689s] removing '/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[3.690s] Copying ../../build/motor_controller/motor_controller.egg-info to /home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller-0.0.0-py3.10.egg-info
+[3.695s] running install_scripts
+[3.773s] Installing serial_motor_controller script to /home/mono/ros2_ws/install/motor_controller/lib/motor_controller
+[3.775s] writing list of installed files to '/home/mono/ros2_ws/build/motor_controller/install.log'
+[3.892s] Invoked command in '/home/mono/ros2_ws/src/motor_controller' returned '0': PYTHONPATH=/home/mono/ros2_ws/build/motor_controller/prefix_override:/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_controller build --build-base /home/mono/ros2_ws/build/motor_controller/build install --record /home/mono/ros2_ws/build/motor_controller/install.log --single-version-externally-managed install_data

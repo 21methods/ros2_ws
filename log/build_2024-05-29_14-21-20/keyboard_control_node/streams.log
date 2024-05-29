@@ -1,0 +1,21 @@
+[9.130s] Invoking command in '/home/mono/ros2_ws/build/keyboard_control_node': PYTHONPATH=/home/mono/ros2_ws/build/keyboard_control_node/prefix_override:/home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mono/ros2_ws/build/keyboard_control_node/build --no-deps symlink_data --force
+[11.452s] running develop
+[11.469s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[11.471s]   warnings.warn(
+[13.137s] running egg_info
+[13.148s] writing keyboard_control_node.egg-info/PKG-INFO
+[13.156s] writing dependency_links to keyboard_control_node.egg-info/dependency_links.txt
+[13.162s] writing entry points to keyboard_control_node.egg-info/entry_points.txt
+[13.167s] writing requirements to keyboard_control_node.egg-info/requires.txt
+[13.172s] writing top-level names to keyboard_control_node.egg-info/top_level.txt
+[13.194s] reading manifest file 'keyboard_control_node.egg-info/SOURCES.txt'
+[13.204s] writing manifest file 'keyboard_control_node.egg-info/SOURCES.txt'
+[13.215s] running build_ext
+[13.221s] Creating /home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages/keyboard-control-node.egg-link (link to .)
+[13.222s] Installing keyboard_control script to /home/mono/ros2_ws/install/keyboard_control_node/lib/keyboard_control_node
+[13.235s] 
+[13.236s] Installed /home/mono/ros2_ws/build/keyboard_control_node
+[13.237s] running symlink_data
+[13.237s] symbolically linking /home/mono/ros2_ws/build/keyboard_control_node/resource/keyboard_control_node -> /home/mono/ros2_ws/install/keyboard_control_node/share/ament_index/resource_index/packages
+[13.237s] symbolically linking /home/mono/ros2_ws/build/keyboard_control_node/package.xml -> /home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node
+[13.491s] Invoked command in '/home/mono/ros2_ws/build/keyboard_control_node' returned '0': PYTHONPATH=/home/mono/ros2_ws/build/keyboard_control_node/prefix_override:/home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mono/ros2_ws/build/keyboard_control_node/build --no-deps symlink_data --force

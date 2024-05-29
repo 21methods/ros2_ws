@@ -1,0 +1,21 @@
+[0.132s] Invoking command in '/home/mono/ros2_ws/build/rosserial_msgs': /usr/bin/cmake /home/mono/ros2_ws/rosserial/rosserial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mono/ros2_ws/install/rosserial_msgs
+[2.591s] -- Configuring incomplete, errors occurred!
+[2.593s] See also "/home/mono/ros2_ws/build/rosserial_msgs/CMakeFiles/CMakeOutput.log".
+[2.596s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.597s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.599s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.601s]   CMake did not find one.
+[2.604s] 
+[2.604s]   Could not find a package configuration file provided by "catkin" with any
+[2.605s]   of the following names:
+[2.605s] 
+[2.606s]     catkinConfig.cmake
+[2.606s]     catkin-config.cmake
+[2.606s] 
+[2.607s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.607s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.608s]   provides a separate development package or SDK, be sure it has been
+[2.608s]   installed.
+[2.609s] 
+[2.609s] [0m
+[3.762s] Invoked command in '/home/mono/ros2_ws/build/rosserial_msgs' returned '1': /usr/bin/cmake /home/mono/ros2_ws/rosserial/rosserial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mono/ros2_ws/install/rosserial_msgs

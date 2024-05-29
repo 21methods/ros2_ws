@@ -1,0 +1,21 @@
+[4.742s] Invoking command in '/home/mono/ros2_ws/build/motor_controller': PYTHONPATH=/home/mono/ros2_ws/build/motor_controller/prefix_override:/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mono/ros2_ws/build/motor_controller/build --no-deps symlink_data --force
+[6.151s] running develop
+[6.156s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.158s]   warnings.warn(
+[7.122s] running egg_info
+[7.123s] writing motor_controller.egg-info/PKG-INFO
+[7.125s] writing dependency_links to motor_controller.egg-info/dependency_links.txt
+[7.127s] writing entry points to motor_controller.egg-info/entry_points.txt
+[7.128s] writing requirements to motor_controller.egg-info/requires.txt
+[7.128s] writing top-level names to motor_controller.egg-info/top_level.txt
+[7.138s] reading manifest file 'motor_controller.egg-info/SOURCES.txt'
+[7.143s] writing manifest file 'motor_controller.egg-info/SOURCES.txt'
+[7.149s] running build_ext
+[7.150s] Creating /home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages/motor-controller.egg-link (link to .)
+[7.154s] Installing serial_motor_controller script to /home/mono/ros2_ws/install/motor_controller/lib/motor_controller
+[7.155s] 
+[7.156s] Installed /home/mono/ros2_ws/build/motor_controller
+[7.156s] running symlink_data
+[7.157s] symbolically linking /home/mono/ros2_ws/build/motor_controller/resource/motor_controller -> /home/mono/ros2_ws/install/motor_controller/share/ament_index/resource_index/packages
+[7.158s] symbolically linking /home/mono/ros2_ws/build/motor_controller/package.xml -> /home/mono/ros2_ws/install/motor_controller/share/motor_controller
+[7.368s] Invoked command in '/home/mono/ros2_ws/build/motor_controller' returned '0': PYTHONPATH=/home/mono/ros2_ws/build/motor_controller/prefix_override:/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mono/ros2_ws/build/motor_controller/build --no-deps symlink_data --force

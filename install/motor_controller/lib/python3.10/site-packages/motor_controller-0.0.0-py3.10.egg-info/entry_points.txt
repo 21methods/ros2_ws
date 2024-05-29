@@ -1,0 +1,2 @@
+[console_scripts]
+serial_motor_controller = motor_controller.serial_motor_controller:main

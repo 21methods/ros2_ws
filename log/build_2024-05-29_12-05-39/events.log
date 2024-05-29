@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.001149] (keyboard_control_node) JobQueued: {'identifier': 'keyboard_control_node', 'dependencies': OrderedDict()}
+[0.002143] (motor_control_node) JobQueued: {'identifier': 'motor_control_node', 'dependencies': OrderedDict()}
+[0.002755] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict()}
+[0.003362] (keyboard_control_node) JobStarted: {'identifier': 'keyboard_control_node'}
+[0.042800] (motor_control_node) JobStarted: {'identifier': 'motor_control_node'}
+[0.072837] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[0.099124] (-) TimerEvent: {}
+[0.200148] (-) TimerEvent: {}
+[0.300944] (-) TimerEvent: {}
+[0.401777] (-) TimerEvent: {}
+[0.502639] (-) TimerEvent: {}
+[0.603448] (-) TimerEvent: {}
+[0.704150] (-) TimerEvent: {}
+[0.804908] (-) TimerEvent: {}
+[0.905785] (-) TimerEvent: {}
+[1.006601] (-) TimerEvent: {}
+[1.107527] (-) TimerEvent: {}
+[1.208297] (-) TimerEvent: {}
+[1.309182] (-) TimerEvent: {}
+[1.410253] (-) TimerEvent: {}
+[1.511182] (-) TimerEvent: {}
+[1.612375] (-) TimerEvent: {}
+[1.713317] (-) TimerEvent: {}
+[1.814135] (-) TimerEvent: {}
+[1.914995] (-) TimerEvent: {}
+[2.015722] (-) TimerEvent: {}
+[2.116409] (-) TimerEvent: {}
+[2.217127] (-) TimerEvent: {}
+[2.317937] (-) TimerEvent: {}
+[2.418738] (-) TimerEvent: {}
+[2.519700] (-) TimerEvent: {}
+[2.620966] (-) TimerEvent: {}
+[2.721784] (-) TimerEvent: {}
+[2.822603] (-) TimerEvent: {}
+[2.923454] (-) TimerEvent: {}
+[3.024275] (-) TimerEvent: {}
+[3.125145] (-) TimerEvent: {}
+[3.225975] (-) TimerEvent: {}
+[3.326678] (-) TimerEvent: {}
+[3.427425] (-) TimerEvent: {}
+[3.528165] (-) TimerEvent: {}
+[3.628913] (-) TimerEvent: {}
+[3.729877] (-) TimerEvent: {}
+[3.831207] (-) TimerEvent: {}
+[3.932027] (-) TimerEvent: {}
+[4.033171] (-) TimerEvent: {}
+[4.134779] (-) TimerEvent: {}
+[4.235775] (-) TimerEvent: {}
+[4.336656] (-) TimerEvent: {}
+[4.437569] (-) TimerEvent: {}
+[4.539440] (-) TimerEvent: {}
+[4.641126] (-) TimerEvent: {}
+[4.742703] (-) TimerEvent: {}
+[4.843530] (-) TimerEvent: {}
+[4.945713] (-) TimerEvent: {}
+[5.050546] (-) TimerEvent: {}
+[5.152037] (-) TimerEvent: {}
+[5.253362] (-) TimerEvent: {}
+[5.354822] (-) TimerEvent: {}
+[5.456310] (-) TimerEvent: {}
+[5.558152] (-) TimerEvent: {}
+[5.660378] (-) TimerEvent: {}
+[5.761255] (-) TimerEvent: {}
+[5.863290] (-) TimerEvent: {}
+[5.971135] (-) TimerEvent: {}
+[6.075334] (-) TimerEvent: {}
+[6.178808] (-) TimerEvent: {}
+[6.186238] (motor_control_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_control_node', 'build', '--build-base', '/home/mono/ros2_ws/build/motor_control_node/build', 'install', '--record', '/home/mono/ros2_ws/build/motor_control_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mono/ros2_ws/src/motor_control_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mono', 'SSH_CLIENT': '192.168.100.214 48674 22', 'LC_TIME': 'sw_TZ', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/mono', 'OLDPWD': '/home/mono/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'LC_MONETARY': 'sw_TZ', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'UBUNTU_MENUPROXY': '1', 'COLCON_PREFIX_PATH': '/home/mono/ros2_ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'mono', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/mono/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'sw_TZ', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'sw_TZ', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mono/ros2_ws/install/motor_controller:/home/mono/ros2_ws/install/motor_control_node:/home/mono/ros2_ws/install/keyboard_control_node:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'sw_TZ', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sw_TZ', 'LC_IDENTIFICATION': 'sw_TZ', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mono/ros2_ws/build/motor_control_node', 'SSH_CONNECTION': '192.168.100.214 48674 192.168.100.213 22', 'XDG_DATA_DIRS': '/home/mono/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mono/ros2_ws/build/motor_control_node/prefix_override:/home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages:/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages:/home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages:/home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'sw_TZ', 'LC_PAPER': 'sw_TZ', 'COLCON': '1'}, 'shell': False}
+[6.280152] (keyboard_control_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/keyboard_control_node', 'build', '--build-base', '/home/mono/ros2_ws/build/keyboard_control_node/build', 'install', '--record', '/home/mono/ros2_ws/build/keyboard_control_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mono/ros2_ws/src/keyboard_control_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mono', 'SSH_CLIENT': '192.168.100.214 48674 22', 'LC_TIME': 'sw_TZ', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/mono', 'OLDPWD': '/home/mono/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'LC_MONETARY': 'sw_TZ', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'UBUNTU_MENUPROXY': '1', 'COLCON_PREFIX_PATH': '/home/mono/ros2_ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'mono', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/mono/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'sw_TZ', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'sw_TZ', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mono/ros2_ws/install/motor_controller:/home/mono/ros2_ws/install/motor_control_node:/home/mono/ros2_ws/install/keyboard_control_node:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'sw_TZ', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sw_TZ', 'LC_IDENTIFICATION': 'sw_TZ', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mono/ros2_ws/build/keyboard_control_node', 'SSH_CONNECTION': '192.168.100.214 48674 192.168.100.213 22', 'XDG_DATA_DIRS': '/home/mono/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mono/ros2_ws/build/keyboard_control_node/prefix_override:/home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages:/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages:/home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages:/home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'sw_TZ', 'LC_PAPER': 'sw_TZ', 'COLCON': '1'}, 'shell': False}
+[6.303247] (-) TimerEvent: {}
+[6.327751] (motor_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_controller', 'build', '--build-base', '/home/mono/ros2_ws/build/motor_controller/build', 'install', '--record', '/home/mono/ros2_ws/build/motor_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mono/ros2_ws/src/motor_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mono', 'SSH_CLIENT': '192.168.100.214 48674 22', 'LC_TIME': 'sw_TZ', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/mono', 'OLDPWD': '/home/mono/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'LC_MONETARY': 'sw_TZ', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'UBUNTU_MENUPROXY': '1', 'COLCON_PREFIX_PATH': '/home/mono/ros2_ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'mono', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/mono/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'sw_TZ', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'sw_TZ', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mono/ros2_ws/install/motor_controller:/home/mono/ros2_ws/install/motor_control_node:/home/mono/ros2_ws/install/keyboard_control_node:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'sw_TZ', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sw_TZ', 'LC_IDENTIFICATION': 'sw_TZ', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mono/ros2_ws/build/motor_controller', 'SSH_CONNECTION': '192.168.100.214 48674 192.168.100.213 22', 'XDG_DATA_DIRS': '/home/mono/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mono/ros2_ws/build/motor_controller/prefix_override:/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages:/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages:/home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages:/home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'sw_TZ', 'LC_PAPER': 'sw_TZ', 'COLCON': '1'}, 'shell': False}
+[6.403547] (-) TimerEvent: {}
+[6.505204] (-) TimerEvent: {}
+[6.607711] (-) TimerEvent: {}
+[6.709475] (-) TimerEvent: {}
+[6.815197] (-) TimerEvent: {}
+[6.917916] (-) TimerEvent: {}
+[7.020126] (-) TimerEvent: {}
+[7.122075] (-) TimerEvent: {}
+[7.224266] (-) TimerEvent: {}
+[7.326545] (-) TimerEvent: {}
+[7.428839] (-) TimerEvent: {}
+[7.531177] (-) TimerEvent: {}
+[7.633281] (-) TimerEvent: {}
+[7.735768] (-) TimerEvent: {}
+[7.834780] (keyboard_control_node) StdoutLine: {'line': b'running egg_info\n'}
+[7.835867] (-) TimerEvent: {}
+[7.837143] (motor_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.838998] (keyboard_control_node) StdoutLine: {'line': b'writing ../../build/keyboard_control_node/keyboard_control_node.egg-info/PKG-INFO\n'}
+[7.840567] (keyboard_control_node) StdoutLine: {'line': b'writing dependency_links to ../../build/keyboard_control_node/keyboard_control_node.egg-info/dependency_links.txt\n'}
+[7.841175] (motor_controller) StdoutLine: {'line': b'writing ../../build/motor_controller/motor_controller.egg-info/PKG-INFO\n'}
+[7.842460] (motor_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_controller/motor_controller.egg-info/dependency_links.txt\n'}
+[7.843056] (keyboard_control_node) StdoutLine: {'line': b'writing entry points to ../../build/keyboard_control_node/keyboard_control_node.egg-info/entry_points.txt\n'}
+[7.843874] (motor_controller) StdoutLine: {'line': b'writing entry points to ../../build/motor_controller/motor_controller.egg-info/entry_points.txt\n'}
+[7.844483] (keyboard_control_node) StdoutLine: {'line': b'writing requirements to ../../build/keyboard_control_node/keyboard_control_node.egg-info/requires.txt\n'}
+[7.855517] (keyboard_control_node) StdoutLine: {'line': b'writing top-level names to ../../build/keyboard_control_node/keyboard_control_node.egg-info/top_level.txt\n'}
+[7.856046] (motor_controller) StdoutLine: {'line': b'writing requirements to ../../build/motor_controller/motor_controller.egg-info/requires.txt\n'}
+[7.856718] (motor_controller) StdoutLine: {'line': b'writing top-level names to ../../build/motor_controller/motor_controller.egg-info/top_level.txt\n'}
+[7.857153] (keyboard_control_node) StdoutLine: {'line': b"reading manifest file '../../build/keyboard_control_node/keyboard_control_node.egg-info/SOURCES.txt'\n"}
+[7.857608] (motor_controller) StdoutLine: {'line': b"reading manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'\n"}
+[7.860013] (keyboard_control_node) StdoutLine: {'line': b"writing manifest file '../../build/keyboard_control_node/keyboard_control_node.egg-info/SOURCES.txt'\n"}
+[7.861030] (keyboard_control_node) StdoutLine: {'line': b'running build\n'}
+[7.862219] (keyboard_control_node) StdoutLine: {'line': b'running build_py\n'}
+[7.863758] (motor_controller) StdoutLine: {'line': b"writing manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'\n"}
+[7.864389] (motor_controller) StdoutLine: {'line': b'running build\n'}
+[7.865663] (motor_controller) StdoutLine: {'line': b'running build_py\n'}
+[7.866279] (keyboard_control_node) StdoutLine: {'line': b'running install\n'}
+[7.867456] (motor_controller) StdoutLine: {'line': b'running install\n'}
+[7.868446] (keyboard_control_node) StdoutLine: {'line': b'running install_lib\n'}
+[7.869128] (motor_controller) StdoutLine: {'line': b'running install_lib\n'}
+[7.870056] (motor_control_node) StdoutLine: {'line': b'running egg_info\n'}
+[7.873045] (keyboard_control_node) StdoutLine: {'line': b'running install_data\n'}
+[7.873862] (keyboard_control_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.874762] (motor_control_node) StdoutLine: {'line': b'writing ../../build/motor_control_node/motor_control_node.egg-info/PKG-INFO\n'}
+[7.876157] (motor_control_node) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_control_node/motor_control_node.egg-info/dependency_links.txt\n'}
+[7.877765] (motor_control_node) StdoutLine: {'line': b'writing entry points to ../../build/motor_control_node/motor_control_node.egg-info/entry_points.txt\n'}
+[7.881179] (motor_control_node) StdoutLine: {'line': b'writing requirements to ../../build/motor_control_node/motor_control_node.egg-info/requires.txt\n'}
+[7.883288] (keyboard_control_node) StdoutLine: {'line': b"removing '/home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages/keyboard_control_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.884273] (motor_control_node) StdoutLine: {'line': b'writing top-level names to ../../build/motor_control_node/motor_control_node.egg-info/top_level.txt\n'}
+[7.885830] (keyboard_control_node) StdoutLine: {'line': b'Copying ../../build/keyboard_control_node/keyboard_control_node.egg-info to /home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages/keyboard_control_node-0.0.0-py3.10.egg-info\n'}
+[7.888470] (motor_controller) StdoutLine: {'line': b'running install_data\n'}
+[7.890817] (motor_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.893300] (motor_control_node) StdoutLine: {'line': b"reading manifest file '../../build/motor_control_node/motor_control_node.egg-info/SOURCES.txt'\n"}
+[7.894171] (keyboard_control_node) StdoutLine: {'line': b'running install_scripts\n'}
+[7.899097] (motor_control_node) StdoutLine: {'line': b"writing manifest file '../../build/motor_control_node/motor_control_node.egg-info/SOURCES.txt'\n"}
+[7.901006] (motor_control_node) StdoutLine: {'line': b'running build\n'}
+[7.901978] (motor_control_node) StdoutLine: {'line': b'running build_py\n'}
+[7.905134] (motor_control_node) StdoutLine: {'line': b'running install\n'}
+[7.908880] (motor_control_node) StdoutLine: {'line': b'running install_lib\n'}
+[7.909587] (motor_controller) StdoutLine: {'line': b"removing '/home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.910370] (motor_controller) StdoutLine: {'line': b'Copying ../../build/motor_controller/motor_controller.egg-info to /home/mono/ros2_ws/install/motor_controller/lib/python3.10/site-packages/motor_controller-0.0.0-py3.10.egg-info\n'}
+[7.913613] (motor_control_node) StdoutLine: {'line': b'running install_data\n'}
+[7.914385] (motor_control_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.921860] (motor_control_node) StdoutLine: {'line': b"removing '/home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages/motor_control_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.923558] (motor_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[7.924424] (motor_control_node) StdoutLine: {'line': b'Copying ../../build/motor_control_node/motor_control_node.egg-info to /home/mono/ros2_ws/install/motor_control_node/lib/python3.10/site-packages/motor_control_node-0.0.0-py3.10.egg-info\n'}
+[7.936072] (-) TimerEvent: {}
+[7.937644] (motor_control_node) StdoutLine: {'line': b'running install_scripts\n'}
+[8.015487] (keyboard_control_node) StdoutLine: {'line': b'Installing keyboard_control script to /home/mono/ros2_ws/install/keyboard_control_node/lib/keyboard_control_node\n'}
+[8.018602] (keyboard_control_node) StdoutLine: {'line': b"writing list of installed files to '/home/mono/ros2_ws/build/keyboard_control_node/install.log'\n"}
+[8.036291] (-) TimerEvent: {}
+[8.042302] (motor_controller) StdoutLine: {'line': b'Installing serial_motor_controller script to /home/mono/ros2_ws/install/motor_controller/lib/motor_controller\n'}
+[8.045104] (motor_controller) StdoutLine: {'line': b"writing list of installed files to '/home/mono/ros2_ws/build/motor_controller/install.log'\n"}
+[8.065117] (motor_control_node) StdoutLine: {'line': b'Installing motor_control script to /home/mono/ros2_ws/install/motor_control_node/lib/motor_control_node\n'}
+[8.069905] (motor_control_node) StdoutLine: {'line': b"writing list of installed files to '/home/mono/ros2_ws/build/motor_control_node/install.log'\n"}
+[8.136839] (-) TimerEvent: {}
+[8.240704] (-) TimerEvent: {}
+[8.317763] (keyboard_control_node) CommandEnded: {'returncode': 0}
+[8.340815] (-) TimerEvent: {}
+[8.382730] (keyboard_control_node) JobEnded: {'identifier': 'keyboard_control_node', 'rc': 0}
+[8.388903] (motor_controller) CommandEnded: {'returncode': 0}
+[8.421951] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 0}
+[8.424584] (motor_control_node) CommandEnded: {'returncode': 0}
+[8.441041] (-) TimerEvent: {}
+[8.456420] (motor_control_node) JobEnded: {'identifier': 'motor_control_node', 'rc': 0}
+[8.459620] (-) EventReactorShutdown: {}

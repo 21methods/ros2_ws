@@ -1,0 +1,33 @@
+[5.742s] Invoking command in '/home/mono/ros2_ws/build/keyboard_control_node': PYTHONPATH=/home/mono/ros2_ws/build/keyboard_control_node/prefix_override:/home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/mono/ros2_ws/build/keyboard_control_node/build
+[7.301s] running develop
+[7.306s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.311s]   warnings.warn(
+[8.471s] Removing /home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages/keyboard-control-node.egg-link (link to .)
+[8.803s] Invoked command in '/home/mono/ros2_ws/build/keyboard_control_node' returned '0': PYTHONPATH=/home/mono/ros2_ws/build/keyboard_control_node/prefix_override:/home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/mono/ros2_ws/build/keyboard_control_node/build
+[8.807s] Invoking command in '/home/mono/ros2_ws/src/keyboard_control_node': PYTHONPATH=/home/mono/ros2_ws/build/keyboard_control_node/prefix_override:/home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/keyboard_control_node build --build-base /home/mono/ros2_ws/build/keyboard_control_node/build install --record /home/mono/ros2_ws/build/keyboard_control_node/install.log --single-version-externally-managed install_data --force
+[10.317s] running egg_info
+[10.320s] writing ../../build/keyboard_control_node/keyboard_control_node.egg-info/PKG-INFO
+[10.320s] writing dependency_links to ../../build/keyboard_control_node/keyboard_control_node.egg-info/dependency_links.txt
+[10.321s] writing entry points to ../../build/keyboard_control_node/keyboard_control_node.egg-info/entry_points.txt
+[10.321s] writing requirements to ../../build/keyboard_control_node/keyboard_control_node.egg-info/requires.txt
+[10.322s] writing top-level names to ../../build/keyboard_control_node/keyboard_control_node.egg-info/top_level.txt
+[10.357s] reading manifest file '../../build/keyboard_control_node/keyboard_control_node.egg-info/SOURCES.txt'
+[10.377s] writing manifest file '../../build/keyboard_control_node/keyboard_control_node.egg-info/SOURCES.txt'
+[10.390s] running build
+[10.390s] running build_py
+[10.402s] running install
+[10.405s] running install_lib
+[10.406s] creating /home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages/keyboard_control_node
+[10.407s] copying /home/mono/ros2_ws/build/keyboard_control_node/build/lib/keyboard_control_node/__init__.py -> /home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages/keyboard_control_node
+[10.408s] copying /home/mono/ros2_ws/build/keyboard_control_node/build/lib/keyboard_control_node/keyboard_control.py -> /home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages/keyboard_control_node
+[10.409s] byte-compiling /home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages/keyboard_control_node/__init__.py to __init__.cpython-310.pyc
+[10.418s] byte-compiling /home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages/keyboard_control_node/keyboard_control.py to keyboard_control.cpython-310.pyc
+[10.420s] running install_data
+[10.421s] copying resource/keyboard_control_node -> /home/mono/ros2_ws/install/keyboard_control_node/share/ament_index/resource_index/packages
+[10.421s] copying package.xml -> /home/mono/ros2_ws/install/keyboard_control_node/share/keyboard_control_node
+[10.422s] running install_egg_info
+[10.431s] Copying ../../build/keyboard_control_node/keyboard_control_node.egg-info to /home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages/keyboard_control_node-0.0.0-py3.10.egg-info
+[10.432s] running install_scripts
+[10.532s] Installing keyboard_control script to /home/mono/ros2_ws/install/keyboard_control_node/lib/keyboard_control_node
+[10.542s] writing list of installed files to '/home/mono/ros2_ws/build/keyboard_control_node/install.log'
+[10.844s] Invoked command in '/home/mono/ros2_ws/src/keyboard_control_node' returned '0': PYTHONPATH=/home/mono/ros2_ws/build/keyboard_control_node/prefix_override:/home/mono/ros2_ws/install/keyboard_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/keyboard_control_node build --build-base /home/mono/ros2_ws/build/keyboard_control_node/build install --record /home/mono/ros2_ws/build/keyboard_control_node/install.log --single-version-externally-managed install_data --force

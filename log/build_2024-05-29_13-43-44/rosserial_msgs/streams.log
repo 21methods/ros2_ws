@@ -1,0 +1,33 @@
+[0.093s] Invoking command in '/home/mono/ros2_ws/build/rosserial_msgs': /usr/bin/cmake /home/mono/ros2_ws/rosserial/rosserial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mono/ros2_ws/install/rosserial_msgs
+[1.966s] -- The C compiler identification is GNU 11.4.0
+[1.967s] -- The CXX compiler identification is GNU 11.4.0
+[1.967s] -- Detecting C compiler ABI info
+[1.968s] -- Detecting C compiler ABI info - done
+[1.982s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.986s] -- Detecting C compile features
+[1.989s] -- Detecting C compile features - done
+[1.999s] -- Detecting CXX compiler ABI info
+[2.373s] -- Detecting CXX compiler ABI info - done
+[2.395s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.397s] -- Detecting CXX compile features
+[2.400s] -- Detecting CXX compile features - done
+[2.501s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.501s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.502s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.502s]   CMake did not find one.
+[2.503s] 
+[2.504s]   Could not find a package configuration file provided by "catkin" with any
+[2.504s]   of the following names:
+[2.513s] 
+[2.514s]     catkinConfig.cmake
+[2.514s]     catkin-config.cmake
+[2.514s] 
+[2.515s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.515s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.515s]   provides a separate development package or SDK, be sure it has been
+[2.516s]   installed.
+[2.516s] 
+[2.517s] [0m
+[2.517s] -- Configuring incomplete, errors occurred!
+[2.518s] See also "/home/mono/ros2_ws/build/rosserial_msgs/CMakeFiles/CMakeOutput.log".
+[2.894s] Invoked command in '/home/mono/ros2_ws/build/rosserial_msgs' returned '1': /usr/bin/cmake /home/mono/ros2_ws/rosserial/rosserial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mono/ros2_ws/install/rosserial_msgs
